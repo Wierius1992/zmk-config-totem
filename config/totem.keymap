@@ -44,8 +44,8 @@
         };
 
         crtl {
-            bindings = <&kp LC(LCTRL)>;
-            key-positions = <11 12 13>;
+            bindings = <&kp LCTRL>;
+            key-positions = <2 3>;
         };
     };
 
