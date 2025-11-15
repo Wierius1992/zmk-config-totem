@@ -42,6 +42,11 @@
             bindings = <&mo 1>;
             key-positions = <0 1 2 3>;
         };
+
+        crtl {
+            bindings = <&kp LC(LCTRL)>;
+            key-positions = <11 12 13>;
+        };
     };
 
     macros {
