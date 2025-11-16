@@ -42,6 +42,12 @@
             bindings = <&mo 1>;
             key-positions = <0 1 2 3>;
         };
+
+        Map {
+            bindings = <&kp M>;
+            key-positions = <23 24>;
+            timeout-ms = <30>;
+        };
     };
 
     macros {
@@ -72,7 +78,7 @@
                 &kp G      &kp Q  &kp B     &kp E     &kp R        &kp Y    &kp U    &kp I      &kp O    &kp P
                 &kp X      &kp A  &kp W     &kp D     &kp F        &kp H    &kp J    &kp K      &kp L    &kp SEMICOLON
 &kp LEFT_SHIFT  &kp LCTRL  &kp Z  &kp S     &kp C     &kp V        &kp N    &kp M    &kp COMMA  &kp DOT  &kp FSLH       &kp SQT
-                                  &kp LALT  &kp PLUS  &kp SPACE    &kp RET  &kp ESC  &kp BSPC
+                                  &kp LALT  &kp FSLH  &kp SPACE    &kp RET  &kp ESC  &kp BSPC
             >;
         };
 
